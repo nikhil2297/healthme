@@ -3,6 +3,12 @@
     "scheme": "acme",
     "userInterfaceStyle": "automatic",
     "orientation": "default",
+    "splash": {
+			"image": "./src/assets/health-me-logo-big.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#000000"
+		},
+		"assetBundlePatterns": ["**/*"],
     "web": {
       "output": "static",
       "bundler": "metro"
@@ -16,6 +22,9 @@
       ]
     ],
     "name": "HealthMe",
-    "slug": "HealthMe"
+    "slug": "HealthMe",
+    "experiments" : {
+      "typedRoots": true
+    }
   }
 }
