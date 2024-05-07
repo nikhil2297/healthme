@@ -4,7 +4,7 @@
     "userInterfaceStyle": "automatic",
     "orientation": "default",
     "splash": {
-			"image": "./src/assets/health-me-logo-big.png",
+			"image": "./src/assets/images/health-me-logo-big.png",
 			"resizeMode": "contain",
 			"backgroundColor": "#000000"
 		},
